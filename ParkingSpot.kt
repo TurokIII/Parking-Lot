@@ -7,6 +7,10 @@ class ParkingSpot() {
         return car == null
     }
 
+    fun isNotEmpty(): Boolean {
+        return car != null
+    }
+
     fun add(car: Car) {
         this.car = car
     }
