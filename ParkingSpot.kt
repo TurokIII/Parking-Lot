@@ -1,6 +1,6 @@
 package parking
 
-class ParkingSpot() {
+class ParkingSpot(val spotNumber: String) {
     var car: Car? = null
 
     fun isEmpty(): Boolean {
